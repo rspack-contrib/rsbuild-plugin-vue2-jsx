@@ -38,13 +38,15 @@
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
     "@playwright/test": "^1.45.3",
-    "@rsbuild/core": "^1.0.1-beta.11",
+    "@rsbuild/core": "^1.0.1-beta.14",
+    "@rsbuild/plugin-vue2": "^1.0.1-beta.14",
     "@types/node": "^20.14.13",
     "nano-staged": "^0.8.0",
     "playwright": "^1.45.3",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.2.3",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vue": "^2.7.14"
   },
   "peerDependencies": {
     "@rsbuild/core": "1.x || ^1.0.1-beta.0"
