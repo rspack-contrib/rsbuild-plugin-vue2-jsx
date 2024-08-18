@@ -1,6 +1,6 @@
 {
   "name": "@rsbuild/plugin-vue2-jsx",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/rspack-contrib/@rsbuild/plugin-vue2-jsx",
   "license": "MIT",
   "type": "module",
