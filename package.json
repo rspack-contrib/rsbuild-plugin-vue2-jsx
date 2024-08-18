@@ -31,6 +31,10 @@
       "biome check --write --no-errors-on-unmatched"
     ]
   },
+  "dependencies": {
+    "@rsbuild/plugin-babel": "^1.0.1-beta.0",
+    "@vue/babel-preset-jsx": "^1.4.0"
+  },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
     "@playwright/test": "^1.45.3",
