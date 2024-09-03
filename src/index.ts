@@ -1,5 +1,8 @@
+import { createRequire } from 'node:module';
 import type { RsbuildPlugin } from '@rsbuild/core';
 import { modifyBabelLoaderOptions } from '@rsbuild/plugin-babel';
+
+const require = createRequire(import.meta.url);
 
 type VueJSXPresetOptions = {
   /**
