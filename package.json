@@ -37,7 +37,7 @@
     "@vue/babel-preset-jsx": "^1.4.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.0.6",
     "@playwright/test": "^1.53.2",
     "@rsbuild/core": "^1.4.2",
     "@rsbuild/plugin-vue2": "^1.0.3",
