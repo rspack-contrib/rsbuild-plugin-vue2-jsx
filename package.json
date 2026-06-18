@@ -2,6 +2,10 @@
   "name": "@rsbuild/plugin-vue2-jsx",
   "version": "1.0.6",
   "repository": "https://github.com/rstackjs/rsbuild-plugin-vue2-jsx",
+  "homepage": "https://github.com/rstackjs/rsbuild-plugin-vue2-jsx#readme",
+  "bugs": {
+    "url": "https://github.com/rstackjs/rsbuild-plugin-vue2-jsx/issues"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
