@@ -4,3 +4,5 @@ allowBuilds:
 minimumReleaseAgeExclude:
   - '@rsbuild/core'
   - '@rsbuild/plugin-*'
+  - typescript
+  - '@typescript/*'
