@@ -6,3 +6,4 @@ minimumReleaseAgeExclude:
   - '@rsbuild/plugin-*'
   - typescript
   - '@typescript/*'
+  - '@rstest/*'
