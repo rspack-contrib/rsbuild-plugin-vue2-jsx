@@ -32,7 +32,7 @@
     "pre-commit": "pnpm run lint:write"
   },
   "dependencies": {
-    "@rsbuild/plugin-babel": "^1.2.1",
+    "@rsbuild/plugin-babel": "^2.0.1",
     "@vue/babel-preset-jsx": "^1.4.0"
   },
   "devDependencies": {
