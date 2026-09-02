@@ -1,11 +1,11 @@
 {
   "name": "@rsbuild/plugin-vue2-jsx",
   "version": "1.0.6",
-  "repository": "https://github.com/rstackjs/rsbuild-plugin-vue2-jsx",
   "homepage": "https://github.com/rstackjs/rsbuild-plugin-vue2-jsx#readme",
   "bugs": {
     "url": "https://github.com/rstackjs/rsbuild-plugin-vue2-jsx/issues"
   },
+  "repository": "https://github.com/rstackjs/rsbuild-plugin-vue2-jsx",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -20,33 +20,27 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib",
-    "dev": "rslib -w",
-    "lint": "rslint && prettier -c .",
-    "lint:write": "rslint --fix && prettier -w .",
-    "prepare": "simple-git-hooks",
-    "test": "rstest",
-    "bump": "pnpx bumpp"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm run lint:write"
+    "build": "rs lib",
+    "bump": "pnpx bumpp",
+    "check": "rs check",
+    "dev": "rs lib -w",
+    "format": "rs fmt",
+    "lint": "rs lint",
+    "prepare": "rs hooks",
+    "test": "rs test"
   },
   "dependencies": {
     "@rsbuild/plugin-babel": "^2.1.0",
     "@vue/babel-preset-jsx": "^1.4.0"
   },
   "devDependencies": {
-    "@rsbuild/core": "^2.2.1",
+    "@rsbuild/core": "^2.2.2",
     "@rsbuild/plugin-vue2": "^1.2.0",
-    "@rslib/core": "^0.23.2",
-    "@rslint/core": "^0.9.0",
     "@rstackjs/test-utils": "^0.2.0",
-    "@rstest/core": "^0.11.11",
     "@rstest/playwright": "^0.11.11",
     "@types/node": "^24.13.3",
     "playwright": "^1.62.1",
-    "prettier": "^3.9.6",
-    "simple-git-hooks": "^2.14.0",
+    "rstack": "^0.7.2",
     "typescript": "^7.0.2",
     "vue": "^2.7.16"
   },
